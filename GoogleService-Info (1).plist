@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>734550150314-2er2qjrl69vvmj0ta4rhuqvbho0q74gc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.734550150314-2er2qjrl69vvmj0ta4rhuqvbho0q74gc</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>734550150314-5tme1d7r1re95msqhmkv0n2qg3gr41ls.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDUfgxyw5-s3X0KplSZEFa-7hNxa1zllXw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>734550150314</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ionicappios.name</string>
+	<key>PROJECT_ID</key>
+	<string>ionicapp-bd789</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ionicapp-bd789.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:734550150314:ios:8fa52152346c7463f6d4d3</string>
+	<key>DATABASE_URL</key>
+	<string>https://ionicapp-bd789.firebaseio.com</string>
+</dict>
+</plist>

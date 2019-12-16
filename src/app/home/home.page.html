@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      IonicApp
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <div *ngIf="isLoggedIn; else loginTemplate">
+    <h1>Welcome, {{displayName}}!</h1>
+    <p>Email: {{email}}<br>
+      Family Name: {{familyName}}<br>
+      Given Name: {{givenName}}<br>
+      User ID: {{userId}}</p>
+    <p><ion-avatar item-left>
+        <img src="{{imageUrl}}">
+       </ion-avatar></p>
+   <ion-button ion-button full (click)="logout()">Logout</ion-button>
+  </div>
+
+  <div class="ion-padding" *ngIf="isfbLoggedIn === true">
+             
+            <ion-button expand="full" color="secondary" (click)="fblogout()">
+              Logout
+              <ion-icon name="log-out"></ion-icon>
+            </ion-button>
+         
+       
+    </div>
+    
+
+
+  <ng-template #loginTemplate>
+    welcome to the login page
+  <ion-button expand="block" color="danger" (click)="doGoogleLogin()">Google Login</ion-button>
+</ng-template>
+<div class="ion-padding" *ngIf="isfbLoggedIn === false">
+    <ion-button expand="full" color="primary" (click)="fbLogin()">
+      Login with facebook
+      <ion-icon name="logo-facebook"></ion-icon>
+    </ion-button>
+  </div>
+</ion-content>
